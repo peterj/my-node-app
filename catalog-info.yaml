@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "my-node-app"
   annotations:
-    backstage.io/kubernetes-id: local-k8s
+    backstage.io/kubernetes-id: my-node-app
     backstage.io/kubernetes-namespace: default
 spec:
   type: service
