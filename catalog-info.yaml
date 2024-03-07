@@ -3,8 +3,7 @@ kind: Component
 metadata:
   name: "my-node-app"
   annotations:
-    backstage.io/kubernetes-id: my-node-app
-    backstage.io/kubernetes-namespace: default
+    backstage.io/kubernetes-label-selector: 'app=httpbin'
 spec:
   type: service
   owner: user:guest
